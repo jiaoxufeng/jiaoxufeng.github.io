@@ -38,7 +38,7 @@ description: "你眼里的星辰大海，是我从未见过的皓月明空。"
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 于 {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
@@ -49,12 +49,12 @@ description: "你眼里的星辰大海，是我从未见过的皓月明空。"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 上一页</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &rarr;</a>
     </li>
     {% endif %}
 </ul>
