@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      java
-subtitle:   序列化
-date:       2021-5-30
+title:      数据库
+subtitle:   详解JDBC
+date:       2021-3-1
 author:     焦旭峰
 header-img: img/the-first.png
 catalog:   true
 tags:
-    - Java
+    - 数据库
 ---
 > ## JDBC课程笔记
 >
