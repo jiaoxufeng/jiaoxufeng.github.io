@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      java
+subtitle:   序列化
+date:       2021-5-30
+author:     焦旭峰
+header-img: img/the-first.png
+catalog:   true
+tags:
+    - Java
+---
 > ## JDBC课程笔记
 >
 
