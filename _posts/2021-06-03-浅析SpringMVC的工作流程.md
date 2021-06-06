@@ -192,13 +192,10 @@ other.jsp如下：
 
 ```
 
-此时，module的结构如下图所示：
-
-![image-20210606221623843](C:\Users\29348\Desktop\个人博客\博文\2021-06-03-浅析SpringMVC的工作流程.assets\image-20210606221623843.png)
 
 #### 2.2、代码层面下的SpringMVC工作流程
 
-启动tomcat服务器，浏览器弹出index.jsp页面，在该页面上提交表单，最终浏览器返回的结果是other.jsp页面。这个过程中发生了。
+启动tomcat服务器，浏览器弹出index.jsp页面，在该页面上提交表单，最终浏览器返回的结果是other.jsp页面。这个过程中发生了：
 
 （1）tomcat服务器启动之后，会创建DispatcherServlet对象，当用户通过浏览器在**index.jsp**页面提交请求，这个http请求会发送到中央调度器。
 
