@@ -7,7 +7,7 @@ author:     焦旭峰
 header-img: img/the-first.png
 catalog:   true
 tags:
-    - SpringMVC
+    - SpringMVC、框架
 ---
 > ## 浅析SpringMVC的工作流程
 
