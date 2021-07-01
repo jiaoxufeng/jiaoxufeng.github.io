@@ -99,13 +99,10 @@ service-worker: true
 # 友情链接，请尽量不要删除，谢谢！
 friends: [
     {
-        title: "掘金",
-        href: "https://juejin.cn/user/369884040019021"
-    },{
         title: "CSDN",
         href: "https://blog.csdn.net/system122"
     },{
-        title: "博客园",
-        href: "https://home.cnblogs.com/u/2083937/"
+        title: "掘金",
+        href: "https://juejin.cn/user/369884040019021"
     }
 ]
